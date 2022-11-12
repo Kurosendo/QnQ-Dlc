@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>DepartmentHead61</defName>
+    <title>Department head</title>
+    <titleShort>Boss</titleShort>
+    <baseDesc>Seeking to satiate an unconscious thirst for power, [PAWN_nameDef] entered government. [PAWN_pronoun] rose through the ranks by ruining the careers of those around [PAWN_objective].\n\nOnce established, [PAWN_possessive] bureaucratic fief allowed [PAWN_objective] to get away with severe moral transgressions.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <spawnCategories>
+      <li>Sadist</li>
+    </spawnCategories>
+    <forcedTraits>
+      <Psychopath>0</Psychopath>
+    </forcedTraits>
+    <disallowedTraits>
+      <Kind />
+      <Industriousness>-1</Industriousness>
+      <Industriousness>-2</Industriousness>
+    </disallowedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Animals</li>
+      <li>Artistic</li>
+      <li>Crafting</li>
+      <li>Cooking</li>
+      <li>Cleaning</li>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Mining</li>
+      <li>Constructing</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ArmyCommander14</defName>
+    <title>Army commander</title>
+    <titleShort>Commander</titleShort>
+    <baseDesc>Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <spawnCategories>
+      <li>Sadist</li>
+    </spawnCategories>
+    <forcedTraits>
+      <Psychopath>0</Psychopath>
+    </forcedTraits>
+    <disallowedTraits>
+      <Kind />
+      <Industriousness>-1</Industriousness>
+      <Industriousness>-2</Industriousness>
+    </disallowedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Animals</li>
+      <li>Artistic</li>
+      <li>Crafting</li>
+      <li>Cooking</li>
+      <li>Cleaning</li>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Mining</li>
+      <li>Constructing</li>
+    </workDisables>
+  </BackstoryDef>
+
+</Defs>

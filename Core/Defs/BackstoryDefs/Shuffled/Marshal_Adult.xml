@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>CaesicMarshal72</defName>
+    <title>Caesic marshal</title>
+    <titleShort>marshal</titleShort>
+    <baseDesc>They say that the Caesics soldiers are recruited from the dead. Rising through such ranks, most return whence they came. [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others.</baseDesc>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Marshal</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Shooting</key><value>7</value></li>
+      <li><key>Melee</key><value>7</value></li>
+      <li><key>Social</key><value>9</value></li>
+      <li><key>Intellectual</key><value>5</value></li>
+      <li><key>Artistic</key><value>3</value></li>
+    </skillGains>
+  </BackstoryDef>
+  
+</Defs>

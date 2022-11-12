@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>GrownMate56</defName>
+    <title>grown mate</title>
+    <titleShort>mate</titleShort>
+    <baseDesc>[PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Mate</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Violent</li>
+      <li>ManualDumb</li>
+      <li>Mining</li>
+      <li>Constructing</li>
+    </workDisables>
+  </BackstoryDef>
+
+</Defs>

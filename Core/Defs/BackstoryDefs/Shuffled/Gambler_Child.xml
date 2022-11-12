@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>StreetUrchin22</defName>
+    <title>street urchin</title>
+    <titleShort>urchin</titleShort>
+    <baseDesc>[PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Gambler</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>2</value></li>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>CardCounter25</defName>
+    <title>card counter</title>
+    <titleShort>card counter</titleShort>
+    <baseDesc>In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Gambler</li>
+    </spawnCategories>
+    <skillGains>
+      <li><key>Intellectual</key><value>4</value></li>
+    </skillGains>
+    <forcedTraits>
+      <TooSmart>0</TooSmart>
+    </forcedTraits>
+  </BackstoryDef>
+
+</Defs>
