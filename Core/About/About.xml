@@ -3,7 +3,7 @@
   <packageId>Ludeon.RimWorld</packageId>
   <author>Ludeon Studios</author>
   <forceLoadBefore>
-    <li>Ludeon.RimWorld.Ideology</li>
-    <li>Ludeon.RimWorld.Royalty</li>
+    <li>QnQ.Ideology</li>
+    <li>Qnq.Royalty</li>
   </forceLoadBefore>
 </ModMetaData>
