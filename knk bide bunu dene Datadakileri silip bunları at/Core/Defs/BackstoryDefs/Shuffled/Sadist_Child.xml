@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>DivorceKid95</defName>
+    <title>divorce kid</title>
+    <titleShort>divorce</titleShort>
+    <baseDesc>[PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories><li>Sadist</li></spawnCategories>
+    <disallowedTraits>
+      <Kind />
+    </disallowedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PetTorturer60</defName>
+    <title>pet torturer</title>
+    <titleShort>pet torturer</titleShort>
+    <baseDesc>[PAWN_nameDef]'s affluent family helped conceal [PAWN_possessive] habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring [PAWN_objective]self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories><li>Sadist</li></spawnCategories>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+    <skillGains>
+      <li><key>Medicine</key><value>2</value></li>
+    </skillGains>
+    <disallowedTraits>
+      <Kind />
+    </disallowedTraits>
+    <forcedTraits>
+      <Psychopath>0</Psychopath>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>PoliticalClimber28</defName>
+    <title>political climber</title>
+    <titleShort>political climber</titleShort>
+    <baseDesc>[PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politician.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories><li>Sadist</li></spawnCategories>
+    <skillGains>
+      <li><key>Social</key><value>3</value></li>
+    </skillGains>
+    <forcedTraits>
+      <TooSmart>0</TooSmart>
+      <Psychopath>0</Psychopath>
+    </forcedTraits>
+    <disallowedTraits>
+      <Kind />
+      <SlowLearner />
+      <Industriousness>-1</Industriousness>
+      <Industriousness>-2</Industriousness>
+    </disallowedTraits>
+  </BackstoryDef>
+
+</Defs>
